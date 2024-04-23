@@ -1,0 +1,6 @@
+protected_dirs: # 被监控的文件夹
+    - D:\tmp\test\framework
+backup_dir: D:\tmp\test\backup
+white_names: # 白名单文件（支持正则）
+    - filegirl
+    - .*\.dist
